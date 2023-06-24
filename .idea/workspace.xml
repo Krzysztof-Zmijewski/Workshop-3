@@ -10,15 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e26bb98-c1d6-421d-8da6-6bbf8001a5a5" name="Changes" comment="Strona list">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/users/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserCrud/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserCrud/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserAdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/users/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/users/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -71,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/krzysztof/Pulpit/Kurs/Servlety/Workshop3/src/main/webapp/users",
+    "last_opened_file_path": "/home/krzysztof/Pulpit/Kurs/Servlety/ONL_JEE_W_22_Servlety",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -204,6 +199,7 @@
       <workItem from="1687367551531" duration="2021000" />
       <workItem from="1687433857244" duration="5373000" />
       <workItem from="1687521355731" duration="2497000" />
+      <workItem from="1687604528487" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="Tworzenie">
       <created>1687367720017</created>
