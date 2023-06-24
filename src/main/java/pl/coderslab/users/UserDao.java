@@ -99,7 +99,7 @@ public class UserDao {
     public User[] findAll() {
         try (Connection conn = DbUtil.getConnection()) {
             User[] users = new User[0];
-            PreparedStatement statement = conn.prepareStatement(READ_USER_QUERY);
+            PreparedStatement statement = conn.prepareStatement(READ_ALL_USERS_QUERY);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 User user = new User();
