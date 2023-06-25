@@ -1,6 +1,7 @@
-package UserCrud;
+package pl.coderslab.users;
 
 import org.mindrot.jbcrypt.BCrypt;
+import pl.coderslab.users.User;
 import pl.coderslab.utils.DbUtil;
 
 import java.sql.*;
@@ -71,7 +72,7 @@ public class UserDao {
             statement.setString( 1, user.getUserName());
             statement.setString( 2, user.getEmail());
             statement.setString( 3, this.hashPassword(user.getPassword()));
-            statement.setInt( 1, user.getId());
+            statement.setInt( 4, user.getId());
             statement.executeUpdate();
         }
         catch (SQLException e) {
@@ -98,7 +99,7 @@ public class UserDao {
     public User[] findAll() {
         try (Connection conn = DbUtil.getConnection()) {
             User[] users = new User[0];
-            PreparedStatement statement = conn.prepareStatement(READ_USER_QUERY);
+            PreparedStatement statement = conn.prepareStatement(READ_ALL_USERS_QUERY);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 User user = new User();
