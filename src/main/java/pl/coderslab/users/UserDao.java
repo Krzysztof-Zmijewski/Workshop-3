@@ -72,7 +72,7 @@ public class UserDao {
             statement.setString( 1, user.getUserName());
             statement.setString( 2, user.getEmail());
             statement.setString( 3, this.hashPassword(user.getPassword()));
-            statement.setInt( 1, user.getId());
+            statement.setInt( 4, user.getId());
             statement.executeUpdate();
         }
         catch (SQLException e) {
